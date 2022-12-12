@@ -78,4 +78,12 @@ align-items                     centering vertical
 
 ________________________________________________
 
-BOOTSTRAP is a library for CSS
+
+                  NAVBAR
+CSS                 
+ text-decoration: none;         clears the line under a link       
+________________________________________________
+
+
+
+                  BOOTSTRAP is a library for CSS
