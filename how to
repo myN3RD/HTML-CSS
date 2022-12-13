@@ -81,7 +81,8 @@ ________________________________________________
 
                   NAVBAR
 CSS                 
- text-decoration: none;         clears the line under a link       
+ text-decoration: none;         clears the line under a link
+ list-style-type: none;         clears the dots
 ________________________________________________
 
 
