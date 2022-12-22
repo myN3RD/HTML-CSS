@@ -18,8 +18,9 @@ _______________________________________________________
 
 ONLY WORK IN A FLEX CONTAINER!
 
-justify-content: center         centering horizontal
-align-items: center             centering vertical
+display: flex;
+justify-content: center;         centering horizontal
+align-items: center;             centering vertical
 
 <style>
     .red-box {
@@ -90,3 +91,5 @@ ________________________________________________
 
 
                   BOOTSTRAP is a library for CSS
+                  
+________________________________________________
