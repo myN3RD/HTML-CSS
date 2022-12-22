@@ -1,5 +1,6 @@
       HTML CHEETSHEET     https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
+_______________________________________________________
 
 make a ordered list <ol> like: 1.
                                2.
@@ -18,7 +19,7 @@ _______________________________________________________
 ONLY WORK IN A FLEX CONTAINER!
 
 justify-content: center         centering horizontal
-align-items                     centering vertical
+align-items: center             centering vertical
 
 <style>
     .red-box {
@@ -79,10 +80,11 @@ align-items                     centering vertical
 ________________________________________________
 
 
-                  NAVBAR
-CSS                 
+                  LINKS or NAVBAR
+                                   
  text-decoration: none;         clears the line under a link
  list-style-type: none;         clears the dots
+ 
 ________________________________________________
 
 
