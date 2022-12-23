@@ -81,6 +81,14 @@ align-items: center;             centering vertical
 ________________________________________________
 
 
+                  Elemente SPIEGELN
+
+
+tranform: scaleX(-1);
+
+________________________________________________
+
+
                   LINKS or NAVBAR
                                    
  text-decoration: none;         clears the line under a link
