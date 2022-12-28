@@ -97,6 +97,16 @@ ________________________________________________
 ________________________________________________
 
 
+                  MULTILINE "Input-Form"              POST request
+
+<form action="/compose" method="POST">       <!-- method="POST" -->
+    <textarea type="text" name="postTitle" id="" cols="30" rows="10"></textarea>     <!-- the solution for a multiline "input" -->   
+    <button type="submit">Publish</button> <!-- type="submit "-->
+</form>
+
+
+________________________________________________
+
 
                   BOOTSTRAP is a library for CSS
                   
