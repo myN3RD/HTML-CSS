@@ -105,6 +105,10 @@ ________________________________________________
 </form>
 
 
+Damit die eingabe die gleiche schriftart hat wie der body ->
+
+font-family: inherit;
+
 ________________________________________________
 
 
