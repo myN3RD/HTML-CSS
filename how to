@@ -115,3 +115,21 @@ ________________________________________________
                   BOOTSTRAP is a library for CSS
                   
 ________________________________________________
+
+
+                  Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
+                  
+.main layout {
+ min-height: 100vh;
+ min-height:100dhv;
+ 
+ display: grid;
+ grid-template-rows:
+   auto
+   1 fr
+   auto;
+  
+ border: 3px solid limegreen;
+}
+                  
+
