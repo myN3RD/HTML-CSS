@@ -11,10 +11,20 @@ make a ordered list <ol> like: 1.
   <li></li>
 </ol>
 
+
+
+            HANDCURSOR
+        
 _______________________________________________________
+
+cursor: pointer; 
+
+
 
 
       FLEXBOX
+      
+_______________________________________________________
 
 ONLY WORK IN A FLEX CONTAINER!
 
@@ -78,26 +88,32 @@ align-items: center;             centering vertical
 
 </html>
 
-________________________________________________
+
 
 
                   Elemente SPIEGELN
+                 
+________________________________________________
 
 
 tranform: scaleX(-1);
 
-________________________________________________
+
 
 
                   LINKS or NAVBAR
+           
+ ________________________________________________
                                    
  text-decoration: none;         clears the line under a link
  list-style-type: none;         clears the dots
  
-________________________________________________
+
 
 
                   MULTILINE "Input-Form"              POST request
+                  
+________________________________________________
 
 <form action="/compose" method="POST">       <!-- method="POST" -->
     <textarea type="text" name="postBody" id="" cols="30" rows="10"></textarea>     <!-- the solution for a multiline "input" -->   
@@ -109,7 +125,7 @@ Damit die eingabe die gleiche schriftart hat wie der body ->
 
 font-family: inherit;
 
-________________________________________________
+
 
 
                   BOOTSTRAP is a library for CSS
