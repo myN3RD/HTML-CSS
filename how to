@@ -1,6 +1,6 @@
       HTML CHEETSHEET     https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 
-_______________________________________________________
+      _______________
 
 make a ordered list <ol> like: 1.
                                2.
@@ -13,18 +13,25 @@ make a ordered list <ol> like: 1.
 
 
 
-            HANDCURSOR
-        
-_______________________________________________________
+
+      BY DOING SOMETHING -> PAGE WILL JUMP TO THE TOP
+      _______________________________________________
+
+#  at href = will make the page jump to the top
+
+
+
+
+      HANDCURSOR
+      __________
 
 cursor: pointer; 
 
 
 
 
-      FLEXBOX
-      
-_______________________________________________________
+      FLEXBOX      
+      _______
 
 ONLY WORK IN A FLEX CONTAINER!
 
@@ -91,9 +98,8 @@ align-items: center;             centering vertical
 
 
 
-                  Elemente SPIEGELN
-                 
-________________________________________________
+      Elemente SPIEGELN
+      __________________
 
 
 tranform: scaleX(-1);
@@ -101,9 +107,8 @@ tranform: scaleX(-1);
 
 
 
-                  LINKS or NAVBAR
-           
- ________________________________________________
+      LINKS or NAVBAR 
+      _______________
                                    
  text-decoration: none;         clears the line under a link
  list-style-type: none;         clears the dots
@@ -111,9 +116,8 @@ tranform: scaleX(-1);
 
 
 
-                  MULTILINE "Input-Form"              POST request
-                  
-________________________________________________
+      MULTILINE "Input-Form"              POST request          
+      ______________________
 
 <form action="/compose" method="POST">       <!-- method="POST" -->
     <textarea type="text" name="postBody" id="" cols="30" rows="10"></textarea>     <!-- the solution for a multiline "input" -->   
@@ -128,12 +132,10 @@ font-family: inherit;
 
 
 
-                  BOOTSTRAP is a library for CSS
-                  
-________________________________________________
+      BOOTSTRAP is a library for CSS 
+      ______________________________
 
-
-                  Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
+Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
                   
 .main layout {
  min-height: 100vh;
@@ -148,4 +150,3 @@ ________________________________________________
  border: 3px solid limegreen;
 }
                   
-
