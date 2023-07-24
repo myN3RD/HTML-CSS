@@ -1,5 +1,4 @@
       HTML CHEETSHEET     https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
-
       _______________
 
 make a ordered list <ol> like: 1.
@@ -18,6 +17,7 @@ make a ordered list <ol> like: 1.
       _______________________________________________
 
 #  at href = will make the page jump to the top
+-> href = "#";
 
 
 
@@ -149,4 +149,5 @@ Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
   
  border: 3px solid limegreen;
 }
+
                   
