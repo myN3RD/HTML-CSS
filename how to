@@ -22,6 +22,22 @@ make a ordered list <ol> like: 1.
 
 
 
+      AFTER LOGIN FOR EXAMPLE -> CLEAR THE INPUT FIELD
+      ________________________________________________
+
+inputLoginUsername.value = inputLoginPin.value = ''; // -> makes an empty string
+
+
+
+
+      THAT THE INPUT FIELD IS LOSING ITS FOCUS
+      ________________________________________
+
+inputLoginPin.blur();
+
+
+
+
       HANDCURSOR
       __________
 
