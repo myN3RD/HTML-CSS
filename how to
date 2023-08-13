@@ -23,6 +23,15 @@ create a ordered list <ol> like: 1.
 
 
 
+      CUTTING UP THE EDGES FROM A BUTTON IN A CONTAINER ON THE BOTTOM
+      _______________________________________________________________
+
+.container {
+   overflow: hidden;
+}
+
+
+
       BY DOING SOMETHING -> PAGE WILL JUMP TO THE TOP
       _______________________________________________
 
