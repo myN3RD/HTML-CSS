@@ -2,7 +2,8 @@
       _________
 
 ! HTML File Block erstellen
-#foo     ENTERN -> DIV generating
+#foo     ENTERN -> DIV generating with an id
+.foo     ENTERN -> DIV generating with a class
 
 
 
@@ -10,9 +11,9 @@
       HTML CHEETSHEET     https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
       _______________
 
-make a ordered list <ol> like: 1.
-                               2.
-                               3.
+create a ordered list <ol> like: 1.
+                                 2.
+                                 3.
 <ol>
   <li></li>
   <li></li>
