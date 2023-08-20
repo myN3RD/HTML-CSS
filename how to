@@ -136,7 +136,6 @@ align-items: center;             centering vertical
       Elemente SPIEGELN
       __________________
 
-
 tranform: scaleX(-1);
 
 
@@ -189,6 +188,31 @@ css.file:
 }
 
 etc...
+
+
+
+
+      CUSTOM DATE INPUT
+      _________________
+
+html.file:
+
+<div>
+      <input type="date" />
+</div>
+
+
+css.file:
+
+/* DATE INPUT */
+::-webkit-datetime-edit {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid;
+  margin: 10px;
+}
  
 
 
