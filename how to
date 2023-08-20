@@ -147,6 +147,48 @@ tranform: scaleX(-1);
                                    
  text-decoration: none;         clears the line under a link
  list-style-type: none;         clears the dots
+
+
+
+
+IMAGE INDIVIDUAL PLACEMENT
+__________________________
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-position?retiredLocale=de
+
+
+
+
+DIFFERENT BACKGROUND IMAGE PER PAGE
+___________________________________
+
+html.file:
+
+<!DOCTYPE html>
+<html class="porsche2" lang="en">      // ->  add the class here!
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+css.file:
+
+.skyline {
+  background-image: url(images/jonathan-gallegos-5FGqfV6UjzI-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.porsche {
+  background-image: url(images/taylor-smith-qIiZW1hS-g8-unsplash.jpg);
+  background-position: bottom 0px right 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+etc...
  
 
 
