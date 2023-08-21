@@ -23,6 +23,28 @@ create a ordered list <ol> like: 1.
 
 
 
+            CSS
+            ___
+
+padding:
+
+is the distance from the content -> to the boarder
+
+/* top, right, bottom, left -> (like a clock)*/
+padding: 25px 60px 25px 60px;
+
+
+border:
+
+is the distance from the padding -> to the margin
+
+
+margin is like the boarder around the boarder
+margin is the distance from the border -> to the next whatever
+
+
+
+
       CUTTING UP THE EDGES FROM A BUTTON IN A CONTAINER ON THE BOTTOM
       _______________________________________________________________
 
