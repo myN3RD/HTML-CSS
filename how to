@@ -63,6 +63,22 @@ margin is the distance from the border -> to the next whatever
 
 
 
+      RESPONSIVE DESIGN (with media queries)
+      _________________
+
+SYNTAX:
+
+@media () {}
+
+NOTE: 
+ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
+
+@media (max-width: 200px) {
+
+}
+
+
+
       CUTTING UP THE EDGES FROM A BUTTON IN A CONTAINER ON THE BOTTOM
       _______________________________________________________________
 
@@ -190,16 +206,16 @@ tranform: scaleX(-1);
 
 
 
-IMAGE INDIVIDUAL PLACEMENT
-__________________________
+      IMAGE INDIVIDUAL PLACEMENT
+      __________________________
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-position?retiredLocale=de
 
 
 
 
-DIFFERENT BACKGROUND IMAGE PER PAGE
-___________________________________
+      DIFFERENT BACKGROUND IMAGE PER PAGE
+      ___________________________________
 
 html.file:
 
