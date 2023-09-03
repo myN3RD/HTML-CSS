@@ -23,8 +23,24 @@ create a ordered list <ol> like: 1.
 
 
 
-            CSS
-            ___
+      TAB ICON
+      ________
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/logo.png" />      // this line
+
+  </head>
+
+
+
+
+      CSS
+      ___
 
 padding:
 
@@ -39,7 +55,9 @@ border:
 is the distance from the padding -> to the margin
 
 
-margin is like the boarder around the boarder
+margin:
+
+is like the boarder around the boarder
 margin is the distance from the border -> to the next whatever
 
 
