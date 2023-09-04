@@ -39,6 +39,16 @@ create a ordered list <ol> like: 1.
 
 
 
+      JUMP TO SECTION
+      _______________
+
+<!-- Anchor Tags to jump to specific sections -->
+
+<li><a href="#portfolio">Portfolio</a></li>
+
+
+
+
       CSS
       ___
 
