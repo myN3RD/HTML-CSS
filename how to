@@ -49,6 +49,16 @@ create a ordered list <ol> like: 1.
 
 
 
+      SMOOTH JUMP TO SECTIONS ***
+      _______________________
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+
+
       CSS
       ___
 
@@ -89,8 +99,8 @@ ALWAYS when developing for Big Screens and not mobile first -> always use (max-w
 
 
 
-      CUTTING UP THE EDGES FROM A BUTTON IN A CONTAINER ON THE BOTTOM
-      _______________________________________________________________
+      CUTTING UP THE EDGES FROM A BUTTON IN A CONTAINER ON THE BOTTOM (WITH BORDER RADIUS)
+      ____________________________________________________________________________________
 
 .container {
    overflow: hidden;
@@ -207,7 +217,7 @@ tranform: scaleX(-1);
 
 
 
-      LINKS or NAVBAR 
+      NAVBAR Links
       _______________
                                    
  text-decoration: none;         clears the line under a link
