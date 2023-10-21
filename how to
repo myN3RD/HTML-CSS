@@ -39,6 +39,27 @@ create a ordered list <ol> like: 1.
 
 
 
+      CLEAN BUTTON DESIGN
+      ___________________
+
+.button {
+  background-color: rgb(19 21 31);
+  color: rgb(254 254 254);
+  font-size: 20px;
+  padding: 15px 40px;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background-color: rgb(254 254 254);
+  color: rgb(19 21 31);
+  border: 2px solid rgb(19 21 31);
+  cursor: pointer;
+}
+
+
+
+
       JUMP TO SECTION
       _______________
 
