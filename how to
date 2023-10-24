@@ -23,6 +23,19 @@ create a ordered list <ol> like: 1.
 
 
 
+      NAV LINKS 
+      _________
+
+.nav-links {
+      display: flex;
+      gap: 2rem;            // gap
+}
+
+gap: 2rem
+
+
+
+
       TAB ICON
       ________
 
