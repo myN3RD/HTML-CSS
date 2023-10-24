@@ -31,8 +31,6 @@ create a ordered list <ol> like: 1.
       gap: 2rem;            // gap
 }
 
-gap: 2rem
-
 
 
 
@@ -83,15 +81,6 @@ gap: 2rem
 
 
 
-      SMOOTH JUMP TO SECTIONS ***
-      _______________________
-
-* {
-  scroll-behavior: smooth;
-}
-
-
-
 
       CSS
       ___
@@ -99,9 +88,6 @@ gap: 2rem
 OWN NOTE (needs to be confirmed if it makes sense): always make the design width DYNAMIC -> so we have to use % and no px or rem etc.
 
 -> makes the responsive design much easier
-
-
-
 
 
 
@@ -125,20 +111,23 @@ margin is the distance from the border -> to the next whatever
 
 
 
+      SMOOTH JUMP TO SECTIONS ***
+      _______________________
 
-      RESPONSIVE DESIGN (with media queries)
-      _________________
-
-SYNTAX:
-
-@media () {}
-
-NOTE: 
-ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
-
-@media (max-width: 200px) {
-
+* {
+  scroll-behavior: smooth;
 }
+
+
+
+      PLACING A ITEM CENTERED
+      _______________________
+
+.item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 
@@ -148,6 +137,9 @@ ALWAYS when developing for Big Screens and not mobile first -> always use (max-w
 .container {
    overflow: hidden;
 }
+
+-> if we have a submit button in a login form for example
+
 
 
 
@@ -269,8 +261,8 @@ tranform: scaleX(-1);
 
 
 
-      NAVBAR Links
-      _______________
+      LINKS (Navbar etc.)
+      ___________________
                                    
  text-decoration: none;         clears the line under a link
  list-style-type: none;         clears the dots
@@ -289,7 +281,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/background-position?retiredLoca
       DIFFERENT BACKGROUND IMAGE PER PAGE
       ___________________________________
 
-html.file:
+html file:
 
 <!DOCTYPE html>
 <html class="porsche2" lang="en">      // ->  add the class here!
@@ -300,7 +292,7 @@ html.file:
     <link rel="stylesheet" href="style.css" />
   </head>
 
-css.file:
+css file:
 
 .skyline {
   background-image: url(images/jonathan-gallegos-5FGqfV6UjzI-unsplash.jpg);
@@ -323,14 +315,15 @@ etc...
       CUSTOM DATE INPUT
       _________________
 
-html.file:
+html file:
 
 <div>
       <input type="date" />
 </div>
 
 
-css.file:
+
+css file:
 
 /* DATE INPUT */
 ::-webkit-datetime-edit {
@@ -354,29 +347,47 @@ css.file:
 </form>
 
 
-Damit die eingabe die gleiche schriftart hat wie der body ->
+
+-> that the input has the same font-family like the body
 
 font-family: inherit;
 
 
 
 
-      BOOTSTRAP is a library for CSS 
-      ______________________________
+      BOOTSTRAP 
+      _________
+
+- is a library for CSS 
 
 Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
                   
 .main layout {
- min-height: 100vh;
- min-height:100dhv;
- 
- display: grid;
- grid-template-rows:
-   auto
-   1 fr
-   auto;
-  
+   min-height: 100vh;
+   min-height:100dhv;
+   display: grid;
+   grid-template-rows:
+    auto
+    1 fr
+    auto;
  border: 3px solid limegreen;
+}
+
+
+
+
+      RESPONSIVE DESIGN (with media queries)
+      _________________
+
+SYNTAX:
+
+@media () {}
+
+NOTE: 
+ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
+
+@media (max-width: 200px) {
+
 }
 
                   
