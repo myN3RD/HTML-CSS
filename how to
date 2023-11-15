@@ -1,3 +1,9 @@
+
+NAV LINKS 40
+
+FLEXBOX 190
+
+
 Its totally fine to use inline styles -> good sideeffect is: for each asset we have on a website, is a new request -> that means we have less requests
 
 
@@ -183,11 +189,21 @@ cursor: pointer;
       FLEXBOX      
       _______
 
+USAGE FOR OVERALL PAGE STRUCTURE
 ONLY WORK IN A FLEX CONTAINER!
 
-display: flex;
-justify-content: center;         centering horizontal
-align-items: center;             centering vertical
+
+FIRST: (html file) wrap all divs inside a div container
+
+
+CSS FILE:
+
+.container {
+  display: flex; // -> NOTE: display: inline, block, inline-block does not work anymore! (cause its not in the fley system!)
+  justify-content: center;         centering horizontal
+  align-items: center;             centering vertical
+  gap: 10px;
+}
 
 <style>
     .red-box {
