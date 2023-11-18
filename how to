@@ -1,6 +1,7 @@
 
 NAV LINKS 40
-
+TAB ICON 47
+CLEAN BUTTON DESIGN 63
 FLEXBOX 190
 
 
@@ -193,13 +194,18 @@ USAGE FOR OVERALL PAGE STRUCTURE
 ONLY WORK IN A FLEX CONTAINER!
 
 
-FIRST: (html file) wrap all divs inside a div container
+FIRST: (html file) wrap all divs inside a div container ->
+
+ <div class="container">
+        <div class="red-box"></div>
+        <div class="yellow-box"></div>
+    </div>
 
 
 CSS FILE:
 
 .container {
-  display: flex; // -> NOTE: display: inline, block, inline-block does not work anymore! (cause its not in the fley system!)
+  display: flex; // -> NOTE: display: inline, block, inline-block does not work anymore! (cause its not in the flex system!)
   justify-content: center;         centering horizontal
   align-items: center;             centering vertical
   gap: 10px;
