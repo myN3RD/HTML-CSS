@@ -92,7 +92,6 @@ create a ordered list <ol> like: 1.
 
 
 
-
       CSS
       ___
 
@@ -122,6 +121,7 @@ margin is the distance from the border -> to the next whatever
 
 
 
+
       SMOOTH JUMP TO SECTIONS ***
       _______________________
 
@@ -131,12 +131,23 @@ margin is the distance from the border -> to the next whatever
 
 
 
+
       PLACING A ITEM CENTERED
       _______________________
 
 .item {
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+
+      (RESPONSIVE DESIGN) DONT SHOWING AN EXISTING ELEMT/ITEM (making it inactive)
+      ____________________________________________________________________________
+
+@media (max-width: xxx) {
+ display: none;
 }
 
 
