@@ -4,6 +4,8 @@ TAB ICON 47
 CLEAN BUTTON DESIGN 63
 FLEXBOX 190
 
+RESPONSIVE DESIGN 425
+
 
 Its totally fine to use inline styles -> good sideeffect is: for each asset we have on a website, is a new request -> that means we have less requests
 
@@ -427,13 +429,26 @@ Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
 
 SYNTAX:
 
-@media () {}
+@media () {
+
+}
+
 
 NOTE: 
 ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
 
 @media (max-width: 200px) {
 
+}
+
+NOTE:
+
+ALWAYS DO THIS***:
+
+add to css: (makes it way easy to see all elements of the website) 
+->
+* {
+ border: 1px solid red;
 }
 
                   
