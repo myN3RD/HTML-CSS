@@ -291,6 +291,15 @@ CSS FILE:
 
 
 
+CHANGE VERTICAL CONTENT TO HORIZONTAL
+_____________________________________
+
+.image-container {
+display: flex;
+flex-direction: column;
+}
+
+
 
       Elemente SPIEGELN
       __________________
