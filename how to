@@ -97,10 +97,25 @@ create a ordered list <ol> like: 1.
       CSS
       ___
 
-OWN NOTE (needs to be confirmed if it makes sense): always make the design width DYNAMIC -> so we have to use % and no px or rem etc.
+OWN NOTE (needs to be confirmed if it makes sense): always make the design width DYNAMIC 
+
+-> so we have to use % and no px or rem etc.
 
 -> makes the responsive design much easier
 
+
+ALWAYS IMPLEMENT THIS
+-> -> -> -> -> ->
+
+* {
+text-decoration: none;
+scroll-behavior: smooth;
+}
+
+button {
+ border: none;
+}
+__________________
 
 
 padding:
