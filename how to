@@ -115,7 +115,14 @@ scroll-behavior: smooth;
 button {
  border: none;
 }
-__________________
+
+hr {
+ border: none;
+}
+
+NOTE: 
+hr has NO color property -> instead: background-color!
+
 
 
 padding:
@@ -136,6 +143,34 @@ margin:
 is like the boarder around the boarder
 margin is the distance from the border -> to the next whatever
 
+
+
+      RESPONSIVE DESIGN (with media queries)
+      _________________
+
+SYNTAX:
+
+@media () {
+
+}
+
+
+NOTE: 
+ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
+
+@media (max-width: 200px) {
+
+}
+
+NOTE:
+
+ALWAYS DO THIS***:
+
+add to css: (makes it way easy to see all elements of the website) 
+->
+* {
+ border: 1px solid red;
+}
 
 
 
@@ -443,36 +478,6 @@ Sticky FOOTER and so one // SMALL SITES take the whole space of the screen
     1 fr
     auto;
  border: 3px solid limegreen;
-}
-
-
-
-
-      RESPONSIVE DESIGN (with media queries)
-      _________________
-
-SYNTAX:
-
-@media () {
-
-}
-
-
-NOTE: 
-ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
-
-@media (max-width: 200px) {
-
-}
-
-NOTE:
-
-ALWAYS DO THIS***:
-
-add to css: (makes it way easy to see all elements of the website) 
-->
-* {
- border: 1px solid red;
 }
 
                   
