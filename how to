@@ -157,37 +157,37 @@ SYNTAX:
 
 NOTE: 
 ALWAYS when developing for Big Screens and not mobile first -> always use (max-width: xxx px)
+ALWAYS when making changes -> start from the highest resolution, way down to the lowest!
+BEFORE starting width 1024 for example -> make sure that the higher resolutions are DONE -> 
 
-@media (max-width: 200px) {
+-> otherwise the lower resolution (when changing) CAN effect the higher resolutions (thats horrible - double work)
+
+
+
+/********** RESPONSIVE DESIGN ********/
+
+@media (max-width: 2054px) {
 
 }
 
+
+
 NOTE:
 
-ALWAYS DO THIS***:
-
-add to css: (makes it way easy to see all elements of the website) 
+add to css: (makes it way easy to see all elements of the website, when searching fpr elements) 
 ->
 * {
  border: 1px solid red;
 }
 
+BUT REMOVE BEFFORE MAKING CHANGES !!!
 
 
-      SMOOTH JUMP TO SECTIONS ***
+
+      PLACING A ELEMENT CENTERED
       _______________________
 
-* {
-  scroll-behavior: smooth;
-}
-
-
-
-
-      PLACING A ITEM CENTERED
-      _______________________
-
-.item {
+.element {
   margin-left: auto;
   margin-right: auto;
 }
@@ -217,7 +217,7 @@ add to css: (makes it way easy to see all elements of the website)
 
 
 
-      BY DOING SOMETHING -> PAGE WILL JUMP TO THE TOP
+      # LINK -> PAGE WILL JUMP TO THE TOP
       _______________________________________________
 
 #  at href = will make the page jump to the top
