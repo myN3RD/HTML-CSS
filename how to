@@ -184,22 +184,34 @@ BUT REMOVE BEFFORE MAKING CHANGES !!!
 
 
 
+DONT SHOWING AN EXISTING ELEMT/ITEM (making it inactive)
+____________________________________________________________________________
+
+@media (max-width: xxx) {
+ display: none;
+}
+
+
+
+CHANGING (ELEMENTS IN BLOCK) TO COLUMN
+______________________________________
+
+@media () {
+ .div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+ }
+}
+
+
+
       PLACING A ELEMENT CENTERED
       _______________________
 
 .element {
   margin-left: auto;
   margin-right: auto;
-}
-
-
-
-
-      (RESPONSIVE DESIGN) DONT SHOWING AN EXISTING ELEMT/ITEM (making it inactive)
-      ____________________________________________________________________________
-
-@media (max-width: xxx) {
- display: none;
 }
 
 
