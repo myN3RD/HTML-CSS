@@ -399,6 +399,16 @@ https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit 
 
 
 
+      POSITIONING A IMG ANYWHERE (absolute & relative)
+      ________________________________________________
+
+1. the img we want to place at bottom: 0; for example -> has to be in a div -> in css position has to be absolute
+
+2. the img div has to be in a container div -> in css position has to be relative
+
+
+
+
       DIFFERENT BACKGROUND IMAGE PER PAGE
       ___________________________________
 
