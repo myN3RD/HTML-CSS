@@ -2,6 +2,7 @@
 NAV LINKS 40
 TAB ICON 47
 CLEAN BUTTON DESIGN 63
+GET(FIND) A IMG FROM A WEBSITE (to re-use it)
 FLEXBOX 190
 
 POSITIONING A IMG ANYWHERE (absolute & relative)
@@ -83,6 +84,16 @@ create a ordered list <ol> like: 1.
   cursor: pointer;
 }
 
+
+
+
+      GET(FIND) A IMG FROM A WEBSITE (to re-use it)
+      _____________________________________________
+
+1. open wbesite
+2. open dev tools chrome
+3. go to "Sources"
+-> in best case there is a images folder -> and thats it
 
 
 
