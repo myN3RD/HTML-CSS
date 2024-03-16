@@ -110,6 +110,9 @@ create a ordered list <ol> like: 1.
       CSS
       ___
 
+# SIMPLE DESIGN -> easy to use
+# NOT BEAUTIFUL! 
+
 OWN NOTE (needs to be confirmed if it makes sense): always make the design width DYNAMIC 
 
 -> so we have to use % and no px or rem etc.
