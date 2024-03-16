@@ -10,6 +10,8 @@ POSITIONING A IMG ANYWHERE (absolute & relative)
 RESPONSIVE DESIGN 425
 
 
+
+
 Its totally fine to use inline styles -> good sideeffect is: for each asset we have on a website, is a new request -> that means we have less requests
 
 
@@ -107,11 +109,33 @@ create a ordered list <ol> like: 1.
 
 
 
-      CSS
-      ___
+            CSS
+            ___
 
 # SIMPLE DESIGN -> easy to use
 # NOT BEAUTIFUL! 
+
+
+
+
+LAYOUT
+______
+
+size and spacing: 
+
+SOLVES ALL SIZING AND SPACING PROBLEMS:
+
+any size or space must be divisible by 4.
+
+like 8, 20, 40, 100 etc...
+
+
+- layout has to be consistent
+- good design repeats itself
+- think in rows and colums
+
+
+
 
 OWN NOTE (needs to be confirmed if it makes sense): always make the design width DYNAMIC 
 
