@@ -11,6 +11,8 @@ RESPONSIVE DESIGN 425
 
 
 
+can i use multiple scripts in one hmtl file?
+-> Yes, you can use multiple <script> tags in a single HTML file.
 
 Its totally fine to use inline styles -> good sideeffect is: for each asset we have on a website, is a new request -> that means we have less requests
 
