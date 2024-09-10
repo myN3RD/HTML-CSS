@@ -3,9 +3,12 @@ NAV LINKS 40
 TAB ICON 47
 CLEAN BUTTON DESIGN 63
 GET(FIND) A IMG FROM A WEBSITE (to re-use it)
+CSS      127
 FLEXBOX 190
 
 POSITIONING A IMG ANYWHERE (absolute & relative)
+
+ONLINER FOR (A LOT) of IMAGES
 
 RESPONSIVE DESIGN 425
 DARKMODE          430
@@ -204,6 +207,14 @@ margin:
 is like the boarder around the boarder
 margin is the distance from the border -> to the next whatever
 
+
+
+      ONLINER FOR (A LOT) of IMAGES
+      _____________________________
+
+.xxx {
+ columns: 300px;
+}
 
 
       RESPONSIVE DESIGN (with media queries)
