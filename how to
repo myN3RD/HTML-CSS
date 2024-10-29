@@ -2,6 +2,7 @@
 NAV LINKS 40
 TAB ICON 47
 CLEAN BUTTON DESIGN 63
+RESIZE IMAGES
 GET(FIND) A IMG FROM A WEBSITE (to re-use it)
 CSS      127
 FLEXBOX 190
@@ -101,6 +102,13 @@ https://www.youtube.com/watch?v=JONzCyVXa60
   cursor: pointer;
 }
 
+
+
+
+      RESIZE IMAGES
+      _____________
+
+npm i sharp
 
 
 
