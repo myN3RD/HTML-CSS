@@ -11,7 +11,7 @@ POSITIONING A IMG ANYWHERE (absolute & relative)
 
 ONLINER FOR (A LOT) of IMAGES
 
-RESPONSIVE DESIGN 425
+RESPONSIVE DESIGN 230
 DARKMODE          430
 
 
@@ -246,9 +246,44 @@ BEFORE starting width 1024 for example -> make sure that the higher resolutions 
 
 /********** RESPONSIVE DESIGN ********/
 
-@media (max-width: 2054px) {
+/* with media querys */
+
+
+RECOMMMENDED "BREAKINGPOOINTS"
+
+
+/* 2XL */
+@media (max-width: 1536px) {
 
 }
+
+/* XL */
+@media (max-width: 1280px) {
+
+}
+
+/* LG */
+@media (max-width: 1024px) {
+
+}
+
+/* MD */
+@media (max-width: 768px) {
+
+}
+
+/* SM */
+@media (max-width: 640px) {
+
+}
+
+/* XS */
+@media (max-width: 475px) {
+
+}
+
+
+.............................
 
 
 
